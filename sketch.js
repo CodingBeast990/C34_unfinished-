@@ -51,15 +51,7 @@ if (keyDown(38)){
 if(keyDown(40)){
   bird.position.y = bird.position.y+4;
 }
-
-if(collide(bird, berry) == true){
-  console.log("it works");
-}
-
-   
-
- 
- 
+  
   image(bg,0,0,width, height);   
   
   spawnBerries();
